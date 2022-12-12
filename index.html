@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/libs/highlight/styles/github-dark-dimmed.min.css">
+    <title>Romenski Egor - Junior Front-End Developer</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div id="loading"></div>
+            <div class="overlay"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#codeEcamples">Code Examples</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        </header>
+        <main class="main">
+            <div class="info" id="contacts">
+                <img class="avatar" src="./assets/images/avatar.jpg" alt="avatar">
+                
+                <div class="info-text">
+                    <h1>Romenski Egor</h1>
+                    <p>I am a beginner <strong>programmer</strong></p>
+                    <p>I like programming</p>
+
+                    <h4>Contacts</h4>
+                    <ul class="contactsLinks">
+                        <li><a href="https://linkedin.com/in/egor-romenski" target="_blank">LinkedIn</a> |</li>
+                        <li><a href="https://github.com/JaKsHaZbi" target="_blank">GitHub</a> |</li>
+                        <li><a href="https://discord.com/users/332160410859995137" target="_blank">Discord</a> |</li>
+                        <li><a href="https://t.me/JacK_HaZbi" target="_blank">Telegram</a> |</li>
+                        <li><a href="https://vk.com/id225064090" target="_blank">VK</a> |</li>
+                        <li><a href="mailto:joker_hazbi@mail.ru?subject=CV" target="_blank">E-mail</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="card bg-yellow" id="about">
+                <h2>About Me</h2>
+                <p>I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
+                    I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.</p>
+                <ul class="list">
+                    <li>My strengths:
+                        <ul>
+                            <li>Quick learner</li>
+                            <li>Full immersion in the essence of the problems</li>
+                            <li>Diligence</li>
+                            <li>Team playing</li>
+                        </ul>
+                </ul>
+            </div>
+            <div class="card bg-green" id="skills">
+                <h2>Skills</h2>
+                <ul class="list">
+                    <li>HTML, CSS</li>
+                    <li>JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)</li>
+                    <li>MSSQL, MySQL</li>
+                    <li>DELPHI</li>
+                    <li>Git/GitHub</li>
+                    <li>Photoshop/Figma</li>
+                </ul>
+            </div>
+            <div class="card bg-gitd" id="codeEcamples">
+                <h2 class="wht">Code Examples</h2>
+                <div class="code">
+                    <code class="language-javascript"> 
+                        // Conditional (ternary) operator javascript
+                    </code>
+                </div>
+                <div class="code">    
+                    <code class="language-javascript">
+                        isReady ? console.log('Everything is ready!') : console.log('Everything is not ready')
+                    </code>
+                </div>   
+            </div>
+            <div class="card bg-violet" id="education">
+                <h2>Education</h2>
+                <ul class="list">
+                    <li>Polotsk State University
+                    <ul>
+                        <li>Faculty of Information Technologies
+                    </ul>
+                    <li>RSSchool «JavaScript/Front-end»
+                </ul>
+            </div>
+            <div class="card bg-red" id="experience">
+                <h2>Experience</h2>
+                <div class="portfolio-cards">
+                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/portfolio/" target="_blank"><img src="./assets/images/portfolio/portfolio-1.jpg" alt="portfolio-1"><p class="important">Portfolio</p></a></div>
+                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/movie-app/" target="_blank"><img src="./assets/images/portfolio/portfolio-2.jpg" alt="portfolio-2"><p class="important">Movie App</p></a></div>
+                </div>
+            </div>
+            <div class="card bg-pink" id="languages">
+                <h2>Languages</h2>
+                <ul class="list">
+                    <li>Russian - native speaker.</li>
+                    <li>English - A2.</li>
+                </ul>
+            </div>
+        </main>
+        <button id="back-to-top" type="button" style="background: none; border: none; outline:none;">
+            <svg class="icon">
+                <use xlink:href="./assets/images/svg/sprite.svg#back-to-top"></use>
+            </svg>
+        </button>
+        <footer class="footer">
+            <p>© 2022</p>
+            <div><a href="https://github.com/JaKsHaZbi" target="_blank">GitHub</a></div>
+            <div><a href="https://rs.school/js/" target="_blank">
+                <svg class="icon">
+                    <use xlink:href="./assets/images/svg/sprite.svg#logo-rsschool"></use>
+                </svg>
+            </a>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/libs/highlight/highlight.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
