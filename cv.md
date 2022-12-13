@@ -45,7 +45,8 @@ isReady
 ## Experience
 
 [Portfolio](https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/portfolio/) \
-[Movie App](https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/movie-app/)
+[Movie App](https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/movie-app/) \
+[Online Zoo](https://rolling-scopes-school.github.io/jakshazbi-JSFE2022Q3/online-zoo/pages/main/)
 
 ## Languages
 
