@@ -381,7 +381,7 @@ code {
 .portfolio-card:nth-child(2) a::before {
   content: "Use VPN";
   position: absolute;
-  width: 320px;
+  width: 100%;
   border-radius: 3px;
   background-color: red;
   color: #fff9dc;
