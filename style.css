@@ -378,7 +378,7 @@ code {
   font-weight: bold;
 }
 
-.portfolio-card:nth-child(2) a::before {
+.portfolio-card:nth-child(4) a::before {
   content: "Use VPN";
   position: absolute;
   width: 100%;
