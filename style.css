@@ -397,6 +397,7 @@ code {
   right: 1rem;
   bottom: 1.5rem;
   transform: scale(1.35);
+  z-index: 999;
 }
 
 #back-to-top:hover {
@@ -460,6 +461,12 @@ code {
   transform: rotate(-90deg);
 }
 
+@media (min-width: 768px) and (max-width: 900px) {
+  .crutch-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 768px) {
   .info {
     display: block;
@@ -473,11 +480,32 @@ code {
     margin-left: 0px;
   }
   .crutch-wrapper {
-    height: 230px !important;
+    height: 250px !important;
   }
   .portfolio-card {
     width: 250px;
     margin-bottom: 0px !important;
+  }
+  .crutch-wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .crutch-wrapper {
+    height: 240px !important;
+  }
+  .portfolio-card {
+    width: 250px;
+    margin-bottom: 20px !important;
+  }
+  .autoplay-progress {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  .crutch-wrapper {
+    width: 100%;
   }
 }
 @media (max-width: 460px) {
@@ -488,18 +516,30 @@ code {
     width: 200px;
     margin-bottom: 20px !important;
   }
+  .autoplay-progress {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
 }
 @media (max-width: 400px) {
   .crutch-wrapper {
-    height: 160px !important;
+    height: 190px !important;
   }
   .portfolio-card {
-    width: 120px;
-    margin-bottom: 20px !important;
+    width: 170px;
   }
   .autoplay-progress {
     position: absolute;
     right: 0px;
     bottom: 0px;
+  }
+}
+@media (max-width: 360px) {
+  .crutch-wrapper {
+    height: 220px !important;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    display: none !important;
   }
 }/*# sourceMappingURL=style.css.map */
