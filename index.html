@@ -8,6 +8,7 @@
     <link rel="icon" href="./assets/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/libs/highlight/styles/github-dark-dimmed.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Romenski Egor - Junior Front-End Developer</title>
 </head>
 <body>
@@ -100,12 +101,36 @@
             </div>
             <div class="card bg-red" id="experience">
                 <h2>Experience</h2>
-                <div class="portfolio-cards">
-                    <div class="portfolio-card"><a href="https://momentum-jakshazbi.netlify.app/" target="_blank"><img src="./assets/images/portfolio/portfolio-5.jpg" alt="portfolio-5"><p class="important">Momentum</p></a></div>
-                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL2022Q4/plants/" target="_blank"><img src="./assets/images/portfolio/portfolio-4.jpg" alt="portfolio-4"><p class="important">Plants</p></a></div>
-                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/portfolio/" target="_blank"><img src="./assets/images/portfolio/portfolio-1.jpg" alt="portfolio-1"><p class="important">Portfolio</p></a></div>
-                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/movie-app/" target="_blank"><img src="./assets/images/portfolio/portfolio-2.jpg" alt="portfolio-2"><p class="important">Movie App</p></a></div>
-                    <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFE2022Q3/online-zoo/pages/main/" target="_blank"><img src="./assets/images/portfolio/portfolio-3.jpg" alt="portfolio-3"><p class="important">Online Zoo</p></a></div>
+                <div class="crutch-wrapper">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="portfolio-card"><a href="https://momentum-jakshazbi.netlify.app/" target="_blank"><img src="./assets/images/portfolio/portfolio-5.jpg" alt="portfolio-5"><p class="important">Momentum</p></a></div> 
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL2022Q4/plants/" target="_blank"><img src="./assets/images/portfolio/portfolio-4.jpg" alt="portfolio-4"><p class="important">Plants</p></a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/portfolio/" target="_blank"><img src="./assets/images/portfolio/portfolio-1.jpg" alt="portfolio-1"><p class="important">Portfolio</p></a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="portfolio-card vpnuse"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFEPRESCHOOL/movie-app/" target="_blank"><img src="./assets/images/portfolio/portfolio-2.jpg" alt="portfolio-2"><p class="important">Movie App</p></a></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="portfolio-card"><a href="https://rolling-scopes-school.github.io/jakshazbi-JSFE2022Q3/online-zoo/pages/main/" target="_blank"><img src="./assets/images/portfolio/portfolio-3.jpg" alt="portfolio-3"><p class="important">Online Zoo</p></a></div>
+                            </div>
+                        </div> 
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="autoplay-progress">
+                            <svg viewBox="0 0 48 48">
+                                <circle cx="24" cy="24" r="20"></circle>
+                            </svg>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card bg-pink" id="languages">
@@ -134,6 +159,8 @@
     </div>
     <script src="./assets/libs/highlight/highlight.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./assets/scripts/script.js"></script>
 </body>
 </html>

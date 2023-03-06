@@ -224,6 +224,7 @@ a:active {
 :root {
   --color-grey: #505255;
   --color-orange: #fac300;
+  --swiper-theme-color: #ffc7b3 !important;
 }
 
 /*PRELOADER*/
@@ -341,16 +342,15 @@ code {
 }
 
 .portfolio-card {
-  flex: 45%;
   max-width: 320px;
   border-radius: 10px;
   overflow: hidden;
   background-color: #ffc7b3;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
   opacity: 1;
   transition: all 1.5s;
 }
@@ -378,7 +378,7 @@ code {
   font-weight: bold;
 }
 
-.portfolio-card:nth-child(4) a::before {
+.vpnuse a::before {
   content: "Use VPN";
   position: absolute;
   width: 100%;
@@ -416,6 +416,50 @@ code {
   transition: 0.3s;
 }
 
+.swiper {
+  position: absolute !important;
+  width: 100%;
+  height: 100% !important;
+}
+
+.crutch-wrapper {
+  position: relative;
+  display: flex;
+  height: 280px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
 @media (max-width: 768px) {
   .info {
     display: block;
@@ -428,7 +472,34 @@ code {
   .info-text {
     margin-left: 0px;
   }
+  .crutch-wrapper {
+    height: 230px !important;
+  }
   .portfolio-card {
-    width: 100%;
+    width: 250px;
+    margin-bottom: 0px !important;
+  }
+}
+@media (max-width: 460px) {
+  .crutch-wrapper {
+    height: 210px !important;
+  }
+  .portfolio-card {
+    width: 200px;
+    margin-bottom: 20px !important;
+  }
+}
+@media (max-width: 400px) {
+  .crutch-wrapper {
+    height: 160px !important;
+  }
+  .portfolio-card {
+    width: 120px;
+    margin-bottom: 20px !important;
+  }
+  .autoplay-progress {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
