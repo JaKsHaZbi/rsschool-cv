@@ -220,6 +220,10 @@ a:active {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
+.footer div:nth-child(3) a {
+  font-size: 0;
+  color: transparent;
+}
 
 :root {
   --color-grey: #505255;
@@ -396,6 +400,7 @@ code {
   position: fixed;
   right: 1rem;
   bottom: 1.5rem;
+  font-size: 0;
   transform: scale(1.35);
   background: none;
   border: none;
