@@ -5,7 +5,7 @@ $(window).on('load',function() {
   $("#loading").fadeOut('slow');
  });
 
-$('#back-to-top').fadeOut();
+$('.back-to-top').fadeOut();
 
 //highlight.js
 document.querySelectorAll('div.code').forEach(el => {
@@ -16,16 +16,16 @@ document.querySelectorAll('div.code').forEach(el => {
 window.onscroll = function(ev) {
   if ((window.scrollY) > 2) {
     if ($(window).width() >= 780) {
-      $('#back-to-top').fadeIn();
+      $('.back-to-top').fadeIn();
     } else {
-      $('#back-to-top').fadeOut();
+      $('.back-to-top').fadeOut();
     }
   }
 	if ((window.scrollY) < 2) {
 		if ($(window).width() >= 780) {
-		  $('#back-to-top').fadeOut();
+		  $('.back-to-top').fadeOut();
     } else {
-			$('#back-to-top').fadeOut();
+			$('.back-to-top').fadeOut();
 		}
 	}	
 };
@@ -41,7 +41,7 @@ $(function(){
 
 $(function() {
   //Click event scroll to top button jquery
-  $('#back-to-top').click(function(){
+  $('.back-to-top').click(function(){
       $('html, body').animate({scrollTop : 0},600);
       return false;
   });

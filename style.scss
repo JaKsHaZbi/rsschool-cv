@@ -187,7 +187,7 @@ code {
   }
 }
 
-#back-to-top {
+.back-to-top {
   fill: #86898f;
   position: fixed;
   right: 1rem;
@@ -196,7 +196,7 @@ code {
   z-index: 999;
 }
 
-#back-to-top:hover {
+.back-to-top:hover {
   cursor: pointer;
   fill: var(--color-orange);
   transition: fill 0.3s ease-in-out;
