@@ -22,11 +22,13 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 
 ## Skills
 
-- HTML, CSS
+- HTML, CSS, SASS, Bootstrap
 - JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)
-- MSSQL, MySQL
+- NodeJS, TypeScript, NestJS
+- MSSQL, MongoDB, MySQL
 - DELPHI
 - Git/GitHub
+- Telegram API, Webpack
 - Photoshop/Figma
 
 ## Code Examples
